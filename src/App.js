@@ -52,7 +52,7 @@ function App() {
     if(wordSet.has(currWord.toLowerCase())) {
       setCurrAttempt({ attempt: currAttempt.attempt + 1, letterPos: 0 });
     } else {
-      alert("Dit woord is niet gevonden / Dit woord bestaat niet")
+      alert("Dit woord staat niet in de lijst")
     }
 
     if (currWord === correctWord) {
